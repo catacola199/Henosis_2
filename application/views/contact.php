@@ -24,15 +24,15 @@
                 <div class="col-lg-4 mt-5">
                     <div>
                         <h5 class="text-muted fw-medium fs-14">Email Address</h5>
-                        <p class="text-dark fs-16">support.yourdomain@email.com</p>
+                        <p class="text-dark fs-16">admin@henosisstudio.com</p>
                     </div>
                     <div class="mt-4">
                         <h5 class="text-muted fw-medium fs-14">Telephone</h5>
-                        <p class="text-dark fs-16">+123 45 56 879</p>
+                        <p class="text-dark fs-16">+62 8121 35619 66</p>
                     </div>
                     <div class="mt-4">
                         <h5 class="text-muted fw-medium fs-14">Address</h5>
-                        <p class="text-dark fs-16">09 Design Street, Downtown Victoria, <br />Australia</p>
+                        <p class="text-dark fs-16">Bekasi, <br />Indonesia</p>
                     </div>
                 </div>
                 <div class="col-lg-8 mt-5">
@@ -95,27 +95,27 @@
             <div class="row justify-content-between">
                 <div class="col-md-auto col-12 mt-3 py-lg-0 py-3">
                     <div class="client-box">
-                        <img src="images/brand/brand-1.png" class="mx-auto d-block img-fluid" alt="client-logo" />
+                        <img src="<?= base_url("assets/images/brand/brand-1.png")?>" class="mx-auto d-block img-fluid" alt="client-logo" />
                     </div>
                 </div>
                 <div class="col-md-auto col-12 mt-3 py-lg-0 py-3">
                     <div class="client-box">
-                        <img src="images/brand/brand-2.png" class="mx-auto d-block img-fluid" alt="client-logo" />
+                        <img src="<?= base_url("assets/images/brand/brand-2.png")?>" class="mx-auto d-block img-fluid" alt="client-logo" />
                     </div>
                 </div>
                 <div class="col-md-auto col-12 mt-3 py-lg-0 py-3">
                     <div class="client-box">
-                        <img src="images/brand/brand-3.png" class="mx-auto d-block img-fluid" alt="client-logo" />
+                        <img src="<?= base_url("assets/images/brand/brand-3.png")?>" class="mx-auto d-block img-fluid" alt="client-logo" />
                     </div>
                 </div>
                 <div class="col-md-auto col-12 mt-3 py-lg-0 py-3">
                     <div class="client-box">
-                        <img src="images/brand/brand-4.png" class="mx-auto d-block img-fluid" alt="client-logo" />
+                        <img src="<?= base_url("assets/images/brand/brand-4.png")?>" class="mx-auto d-block img-fluid" alt="client-logo" />
                     </div>
                 </div>
                 <div class="col-md-auto col-12 mt-3 py-lg-0 py-3">
                     <div class="client-box">
-                        <img src="images/brand/brand-5.png" class="mx-auto d-block img-fluid" alt="client-logo" />
+                        <img src="<?= base_url("assets/images/brand/brand-5.png")?>" class="mx-auto d-block img-fluid" alt="client-logo" />
                     </div>
                 </div>
             </div>

@@ -17,7 +17,6 @@
                 <ul class="nav navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link sub-menu-item" href="<?= base_url() ?>">Home</a></li>
                     <li class="nav-item"><a class="nav-link sub-menu-item" href="about">About</a></li>
-                    <li class="nav-item"><a class="nav-link sub-menu-item" href="services">Services</a></li>
                     <li class="nav-item dropdown parent-menu-item">
                         <a class="nav-link menu-item dropdown-toggle" data-bs-toggle="dropdown"
                             href="javascript:void(0)" role="button" aria-expanded="false">Product</a>
