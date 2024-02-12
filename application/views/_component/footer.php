@@ -18,7 +18,7 @@
                         </ul>
                         <!-- end ul -->
                         <div class="text-white-50 pb-4">
-                            <a href="whatsapp://send?abid=081213561966&text=Hello%2C%20World!">Contact Me !!</a><br>
+                        <a href="https://api.whatsapp.com/send?phone=081213561966" target="_blank">Send Message</a><br>
                             <script>document.write(new Date().getFullYear())</script> &copy; Henosis by <a
                                 class="text-white-50 text-decoration-underline" target="_blank" href="https://www.instagram.com/furqondelviroandika">Catacola</a>
                         </div>

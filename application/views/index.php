@@ -45,7 +45,7 @@
                         <div class="card-body p-0">
                             <a href="javascript:void(0)" data-src="images/works/img-2.jpg" data-gallery="myGal"
                                 class="d-inline-block" title="">
-                                <video controls autoplay muted width="100%" height="auto">
+                                <video controls loop autoplay muted width="100%" height="auto">
                                     <source src="<?= base_url("assets/images/teaser.mp4")?>" type="video/mp4" >
                                     <p>Sorry, your broswer doesn't support embedded videos.</p>
                                 </video>
