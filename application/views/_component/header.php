@@ -36,7 +36,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link sub-menu-item" href="Portofolio">Portofolio</a>
+                        <a class="nav-link sub-menu-item" href="portofolio">Portofolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link sub-menu-item" href="contact">Contact</a>
