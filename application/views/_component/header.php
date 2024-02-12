@@ -23,16 +23,16 @@
                             href="javascript:void(0)" role="button" aria-expanded="false">Product</a>
                         <ul class="dropdown-menu border-0">
                             <li class="nav-item">
-                                <a class="nav-link sub-menu-item" href="photography">Photography</a>
+                                <a class="nav-link sub-menu-item" href="wedding">Photography</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link sub-menu-item" href="videography">Videography</a>
+                                <a class="nav-link sub-menu-item" href="wedding">Videography</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link sub-menu-item" href="wedding">Wedding Invitation</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link sub-menu-item" href="studio">Studio</a>
+                                <a class="nav-link sub-menu-item" href="wedding">Studio</a>
                             </li>
                         </ul>
                     </li>
