@@ -18,9 +18,9 @@ class Front extends CI_Controller
 	{
 		$this->load->view('services');
 	}
-	function photography()
+	function photovideo()
 	{
-		$this->load->view('photography');
+		$this->load->view('photovideo');
 	}
 	function wedding()
 	{
@@ -33,10 +33,6 @@ class Front extends CI_Controller
 	function wedding_2()
 	{
 		$this->load->view('undangan_2');
-	}
-	function videography()
-	{
-		$this->load->view('videography');
 	}
 	function studio()
 	{

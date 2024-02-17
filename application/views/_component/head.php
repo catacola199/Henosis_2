@@ -18,15 +18,16 @@
     <link rel="stylesheet" href="<?= base_url("assets/css/pe-icon-7-stroke.css")?>">
     <link rel="stylesheet" id="app-css" href="<?= base_url("assets/css/style.css")?>">
     <link rel="stylesheet" id="color-opt" href="<?= base_url("assets/css/colors/default.css")?>">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
     
 </head>
 
 <body data-bs-target=".navbar" data-bs-offset="110">
     <!-- light-dark mode button -->
-    <a href="javascript: void(0);" id="mode" data-class="light" class="text-white rounded-end mode-btn" onclick="changeMode(event)">
+    <!-- <a href="javascript: void(0);" id="mode" data-class="light" class="text-white rounded-end mode-btn" onclick="changeMode(event)">
         <i class="mode-dark mx-auto" data-feather="moon"></i>
         <i class="bx-spin mode-light" data-feather="sun"></i>
-    </a>
+    </a> -->
 
     <?php $this->load->view('_component/header') ?>

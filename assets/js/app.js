@@ -158,10 +158,10 @@ function changeMode(event) {
     var y = document.getElementById("mode");
 
     if (currentMode === "light") {
-        x.setAttribute('href', 'css/style-dark.css')
+        x.setAttribute('href', '<?php echo base_url("assets/css/style-dark.css"); ?>')
         y.setAttribute('data-class', 'dark')
     } else {
-        x.setAttribute('href', 'css/style.css')
+        x.setAttribute('href', '<?php echo base_url("assets/css/style-dark.css"); ?>')
         y.setAttribute('data-class', 'light')
     }
 }

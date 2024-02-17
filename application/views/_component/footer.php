@@ -5,7 +5,7 @@
                 <div class="col-lg-12">
                     <div class="text-center">
                         <a href="<?= base_url("")?>" class="footer-logo d-inline-block">
-                            <img src="<?= base_url("assets/images/3.png")?>" class="mx-auto logo-dark" alt="" height="80" />
+                            <img src="<?= base_url("assets/images/2.png")?>" class="mx-auto logo-dark" alt="" height="80" />
                         </a>
 
                         <ul class="list-inline social-circle mt-3">
@@ -17,10 +17,10 @@
                                 </a></li>
                         </ul>
                         <!-- end ul -->
-                        <div class="text-white-50 pb-4">
+                        <div class=" pb-4">
                         <a href="https://wa.me/081213561966?text=I'm%20interested%20in%20your%20car%20for%20sale" target="_blank">Send Message</a><br>
                             <script>document.write(new Date().getFullYear())</script> &copy; Henosis by <a
-                                class="text-white-50 text-decoration-underline" target="_blank" href="https://www.instagram.com/furqondelviroandika">Catacola</a>
+                                class=" text-decoration-underline" target="_blank" href="https://www.instagram.com/furqondelviroandika">Catacola</a>
                         </div>
 
                     </div>
@@ -55,9 +55,9 @@
                 </li>
             </ul>
         </div>
-        <div class="bottom">
+        <!-- <div class="bottom">
             <a href="javascript: void(0);" class="settings rounded-end text-light"><i data-feather="droplet"></i></a>
-        </div>
+        </div> -->
     </div>
     <!-- end Style switcher -->
     <script src="<?= base_url("assets/js/jquery.js") ?>"></script>
@@ -66,6 +66,22 @@
     <script src="<?= base_url("assets/js/gallery.init.js") ?>"></script>
     <script src="<?= base_url("assets/js/feather.js") ?>"></script>
     <script src="<?= base_url("assets/js/app.js") ?>"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+    });
+    </script>
     
  
    

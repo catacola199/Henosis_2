@@ -3,7 +3,7 @@
         <div class="container">
             <a href="<?= base_url() ?>" class="navbar-brand me-4">
                 <img src="<?= base_url("assets/images/3.png")?>" class="logo-light" alt="" height="55" />
-                <img src="<?= base_url("assets/images/2.png")?>" class="logo-dark" alt="" height="55" />
+                <img src="<?= base_url("assets/images/3.png")?>" class="logo-dark" alt="" height="55" />
             </a>
 
             <div class="navbar-header">
@@ -22,11 +22,9 @@
                             href="javascript:void(0)" role="button" aria-expanded="false">Product</a>
                         <ul class="dropdown-menu border-0">
                             <li class="nav-item">
-                                <a class="nav-link sub-menu-item" href="wedding">Photography</a>
+                                <a class="nav-link sub-menu-item" href="photovideo">Photo & Videography</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link sub-menu-item" href="wedding">Videography</a>
-                            </li>
+                           
                             <li class="nav-item">
                                 <a class="nav-link sub-menu-item" href="wedding">Wedding Invitation</a>
                             </li>

@@ -21,7 +21,7 @@ File: Main scss file
 ********************************/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 body {
-  background-color: #ffffff;
+  background-color: #101010;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   padding: 30px 0;
@@ -32,7 +32,7 @@ body {
 }
 
 html {
-  background-color: #edeeef;
+  background-color: #2b2b2b;
 }
 
 ::selection {
@@ -54,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #383840;
+  color: #f5f2ed;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
@@ -172,11 +172,11 @@ h6 {
 }
 
 .text-dark {
-  color: #383840 !important;
+  color: #f5f2ed !important;
 }
 
 .bg-dark {
-  background-color: #383840 !important;
+  background-color: #f5f2ed !important;
 }
 
 .bg-soft-dark {
@@ -220,7 +220,7 @@ h6 {
 }
 
 .btn-dark {
-  background-color: #383840 !important;
+  background-color: #f5f2ed !important;
   color: #fafafa !important;
 }
 
@@ -378,7 +378,7 @@ h6 {
 }
 
 .title {
-  border-bottom: 2px solid #383840 !important;
+  border-bottom: 2px solid #f5f2ed !important;
 }
 
 .section-title {
@@ -513,8 +513,8 @@ h6 {
 
 .btn-dark {
   color: #ffffff;
-  background: #383840;
-  border-color: #383840;
+  background: #f5f2ed;
+  border-color: #f5f2ed;
 }
 
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active {
@@ -620,9 +620,9 @@ h6 {
 }
 
 .btn-outline-dark {
-  color: #383840;
+  color: #f5f2ed;
   background: transparent;
-  border-color: #383840;
+  border-color: #f5f2ed;
 }
 
 .btn-outline-dark:hover, .btn-outline-dark:focus, .btn-outline-dark:active, .btn-outline-dark.active {
@@ -675,7 +675,7 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   padding: 10px 15px;
-  color: rgba(56, 56, 64, 0.75);
+  color: rgba(255, 255, 255, 0.75);
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 40px;
@@ -701,7 +701,7 @@ h6 {
 }
 
 .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
-  background-color: #ffffff;
+  background-color: #101010;
   padding-left: 20px;
 }
 
@@ -719,7 +719,7 @@ h6 {
 .navbar .navbar-toggler {
   padding: 0px;
   border: none;
-  color: #383840;
+  color: #f5f2ed;
 }
 
 .navbar .navbar-toggler:focus {
@@ -739,14 +739,15 @@ h6 {
 .nav-sticky.navbar {
   margin-top: 0px;
   padding: 8px 0px;
-  background-color: #ffffff;
-  box-shadow: 0px 4px 10px 0px rgba(69, 61, 80, 0.08);
+  background-color: #101010;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
   max-width: 1300px;
   position: fixed;
+  
 }
 
 .nav-sticky.navbar .navbar-nav .nav-item .nav-link {
-  color: rgba(56, 56, 64, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .nav-sticky.navbar .navbar-nav .nav-item .nav-link:hover, .nav-sticky.navbar .navbar-nav .nav-item .nav-link:active, .nav-sticky.navbar .navbar-nav .nav-item .nav-link:focus, .nav-sticky.navbar .navbar-nav .nav-item .nav-link.active {
@@ -755,8 +756,8 @@ h6 {
 
 @media (max-width: 991.98px) {
   .navbar {
-    background-color: #ffffff;
-    box-shadow: 0px 4px 20px rgba(51, 51, 51, 0.08);
+    background-color: #101010;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
     padding: 14px;
   }
   .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
@@ -876,7 +877,7 @@ h6 {
 }
 
 .pro-detail-area .nav-tabs .nav-link {
-  color: #383840;
+  color: #f5f2ed;
   font-size: 16px;
   font-weight: 500;
 }
@@ -908,12 +909,38 @@ h6 {
 }
 
 .post .post-title a {
-  color: #383840;
+  color: #f5f2ed;
   transition: all .3s ease-out;
 }
 
 .post .post-title a:hover {
   color: #2b2b2b;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sidebar .sd-title {
@@ -941,7 +968,7 @@ h6 {
 }
 
 .share-link li a {
-  color: #383840;
+  color: #f5f2ed;
 }
 
 .share-link li a:hover {
@@ -956,7 +983,7 @@ h6 {
 .pagination .page-item .page-link {
   border: 1px solid #ededed;
   border-radius: 3px;
-  color: #383840;
+  color: #f5f2ed;
   background-color: #fafafa;
   display: block;
   float: none;
@@ -973,7 +1000,7 @@ h6 {
 
 .form-select {
   background-color: #ffffff;
-  color: #383840;
+  color: #f5f2ed;
 }
 
 .form-select:focus {
@@ -992,7 +1019,7 @@ h6 {
 }
 
 .form-control {
-  color: #383840;
+  color: #f5f2ed;
   box-shadow: none;
   border-radius: 4px;
   padding: 12px 15px;
@@ -1005,7 +1032,7 @@ h6 {
   border-color: form-control-bgen(#2b2b2b, 30%);
   box-shadow: none;
   background-color: #ffffff;
-  color: #383840;
+  color: #f5f2ed;
 }
 
 .form-check-input:focus {
@@ -1015,7 +1042,7 @@ h6 {
 .footer {
   margin: 50px 0 -30px 0;
   padding: 30px 0;
-  background-color: #383840;
+  background-color: #f5f2ed;
 }
 
 .footer .social-circle li a {
@@ -1052,19 +1079,19 @@ h6 {
 }
 
 #style-switcher div h3 {
-  color: #383840;
+  color: #f5f2ed;
   font-size: 16px;
   margin: 0 3px 12px;
 }
 
 #style-switcher .bottom {
   background: none repeat scroll 0 0 #ffffff;
-  color: #383840;
+  color: #f5f2ed;
   padding: 0;
 }
 
 #style-switcher .bottom a.settings {
-  background: none repeat scroll 0 0 #383840;
+  background: none repeat scroll 0 0 #f5f2ed;
   box-shadow: 0px 4px 12px rgba(31, 27, 81, 0.07);
   display: block;
   height: 45px;
