@@ -285,16 +285,16 @@
 
                         <div class="carousel-inner rounded-4">
                             <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_1.jpg")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_1.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                             <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_4.jpg")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_4.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                             <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_5.jpg")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_5.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                             <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_6.jpg")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_6.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                            
                            
@@ -320,13 +320,13 @@
 
                         <div class="carousel-inner rounded-4">
                             <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/ft_2.jpg")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/ft_2.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                             <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/ft_3.jpg")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/ft_3.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                             <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/ft_4.jpg")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/ft_4.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                         </div>
 
