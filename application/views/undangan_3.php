@@ -364,21 +364,21 @@
                     <div class="overflow-x-hidden">
                         <div class="row justify-content-center">
 
-                            <div class="col-5 card-body border rounded-4 shadow p-3 m-3" data-aos="fade-down" data-aos-duration="1500">
-                                <img src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/640px-BNI_logo.svg.png" class="img-fluid w-50 rounded" alt="bni">
+                            <div class="col-5 card-body border rounded-4 shadow p-3 m-3 " data-aos="fade-down" data-aos-duration="1500">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/bca.png")?>" class="img-fluid w-50 rounded" alt="bni">
 
-                                <p class="card-text mt-3 mb-0" style="font-size: 0.9rem;">No. Rekening 123456789</p>
-                                <p class="card-text" style="font-size: 0.9rem;">a.n Lorem ipsum dolor</p>
+                                <p class="card-text mt-3 mb-0" style="font-size: 0.9rem;">No. Rekening 4452150976</p>
+                                <p class="card-text" style="font-size: 0.9rem;">a.n Anindya Dwi</p>
 
                                 <!-- Ubah juga data-nomer sesuai dengan no rekening -->
                                 <button class="btn btn-light btn-sm rounded-3" data-nomer="123456789" onclick="util.salin(this)" autofocus>Salin No. Rekening</button>
                             </div>
 
                             <div class="col-5 card-body border rounded-4 shadow p-3 m-3" data-aos="fade-down" data-aos-duration="1500">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BANK_BRI_logo.svg/640px-BANK_BRI_logo.svg.png" class="img-fluid w-50 rounded" alt="bri">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/mandiri.png")?>" class="img-fluid w-50 rounded" alt="bri">
 
                                 <p class="card-text mt-3 mb-0" style="font-size: 0.9rem;">No. Rekening 123456789</p>
-                                <p class="card-text" style="font-size: 0.9rem;">a.n Lorem ipsum dolor</p>
+                                <p class="card-text" style="font-size: 0.9rem;">a.n Baguc Fachrurozi</p>
 
                                 <!-- Ubah juga data-nomer sesuai dengan no rekening -->
                                 <button class="btn btn-light btn-sm rounded-3" data-nomer="123456789" onclick="util.salin(this)" autofocus>Salin No. Rekening</button>
@@ -388,6 +388,19 @@
                 </div>
             </div>
         </div>
+
+        <section class="py-2" id="ucapan">
+            <div class="container">
+
+                <div class="card-body border rounded-4 shadow p-3">
+                    <h1 class="text-center mb-3" style="font-size: 1.5rem;">Alamat kirim kirim : jl imogiri timur no 8 glagah kidul, tamanan, banguntapan, bantul, DIY</h1>
+                    <div class="mb-1" id="balasan"></div>
+
+                
+                </div>
+
+            </div>
+        </section>
 
         <!-- Ucapan -->
         <section class="m-0 p-0" id="ucapan">
