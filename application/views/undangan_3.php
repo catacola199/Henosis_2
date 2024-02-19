@@ -377,7 +377,7 @@
                             <div class="col-5 card-body border rounded-4 shadow p-3 m-3" data-aos="fade-down" data-aos-duration="1500">
                                 <img src="<?= base_url("assets/undangan_2/assets/images/mandiri.png")?>" class="img-fluid w-50 rounded" alt="bri">
 
-                                <p class="card-text mt-3 mb-0" style="font-size: 0.9rem;">No. Rekening 123456789</p>
+                                <p class="card-text mt-3 mb-0" style="font-size: 0.9rem;">No. Rekening 1250012377750</p>
                                 <p class="card-text" style="font-size: 0.9rem;">a.n Baguc Fachrurozi</p>
 
                                 <!-- Ubah juga data-nomer sesuai dengan no rekening -->
