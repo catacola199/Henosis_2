@@ -125,8 +125,8 @@
                 </div>
                 
                
-                <h1 class="font-esthetic my-4" style="font-size: 3rem;">Bagus & Annindya</h1>
-                <p class="mb-0" style="font-size: 1.5rem;">Rabu, 03 Maret 2024</p>
+                <h1 class="font-esthetic my-4" style="font-size: 3rem;">Bagus & Anindya</h1>
+                <p class="mb-0" style="font-size: 1.5rem;">Minggu, 03 Maret 2024</p>
 
                 <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Wahyu%20and%20Riski&details=The%20Wedding%20of%20Wahyu%20and%20Riski%20%7C%2015%20Maret%202023%20%7C%20RT%2010%20RW%2002,%20Desa%20Pajerukan,%20Kec.%20Kalibagor,%20Kab.%20Banyumas,%20Jawa%20Tengah%2053191%20%7C%2010.00%20-%2011.00%20WIB&dates=20230315T100000/20230315T110000&location=https://goo.gl/maps/ALZR6FJZU3kxVwN86">
                     <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
@@ -165,7 +165,7 @@
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
                             <img src="<?= base_url("assets/undangan_2/assets/images/bagus.png")?>" alt="cowo" onclick="util.modal(this)">
                         </div>
-                        <h1 class="font-esthetic" style="font-size: 3rem;">Bagus Fachrurozi</h1>
+                        <h1 class="font-esthetic" style="font-size: 3rem;">Bagus Fachrurozi S.Sn</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem;">Putra Ke - 2</p>
                         <p class="mb-0">Bapak Alm. Agung Kurnianto & Ibu Alm. Tepi Indriati Rahayu</p>
                     </div>
@@ -176,7 +176,7 @@
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
                             <img src="<?= base_url("assets/undangan_2/assets/images/anin.png")?>" alt="cewe" onclick="util.modal(this)">
                         </div>
-                        <h1 class="font-esthetic" style="font-size: 3rem;">Annindya Dwi Rezky Amilia</h1>
+                        <h1 class="font-esthetic" style="font-size: 3rem;">Anindya Dwi Rezky Amilia S.S</h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem;">Putri Ke - 2</p>
                         <p class="mb-0">Bapak Sugiono & Ibu Parmi</p>
                     </div>
@@ -294,7 +294,7 @@
                                 <img src="<?= base_url("assets/undangan_2/assets/images/foto_5.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                             <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_6.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_8.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                            
                            
@@ -503,7 +503,7 @@
 
             <div class="text-center">
                 <h1 class="font-esthetic mb-4" style="font-size: 1.5rem;">The Wedding Of</h1>
-                <h1 class="font-esthetic my-4" style="font-size: 2.5rem;">Bagus & Annindya</h1>
+                <h1 class="font-esthetic my-4" style="font-size: 2.5rem;">Bagus & Anindya</h1>
 
                 <div class="img-crop border border-3 border-light shadow mb-4 mx-auto">
                     <img src="<?= base_url("assets/undangan_2/assets/images/ft_awal2.JPG")?>" alt="bg">
