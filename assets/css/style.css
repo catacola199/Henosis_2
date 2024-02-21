@@ -175,6 +175,10 @@ h6 {
   color: #f5f2ed !important;
 }
 
+.text-dark2 {
+  color: #101010 !important;
+}
+
 .bg-dark {
   background-color: #f5f2ed !important;
 }
@@ -369,8 +373,12 @@ h6 {
 }
 
 .card {
-  background-color: #523e3ed8;
+  background-color: #f5f2ed;
   border: none !important;
+}
+
+.card-text{
+  font-weight: bold;
 }
 
 .shadow {

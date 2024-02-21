@@ -29,7 +29,7 @@
                                 <a class="nav-link sub-menu-item" href="wedding">Wedding Invitation</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link sub-menu-item" href="wedding">Studio</a>
+                                <a class="nav-link sub-menu-item" href="studio">Studio</a>
                             </li>
                         </ul>
                     </li>

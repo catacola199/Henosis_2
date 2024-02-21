@@ -18,55 +18,6 @@
     </section>
     <!-- End Title -->
 
-    <!-- Start price list -->
-    <section>
-        <div class="container mt-2">
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img src="<?= base_url("assets/images/team/team-5.jpg")?>" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Delviro</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="wedding_1" class="btn btn-primary">Undangan 1</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img src="<?= base_url("assets/images/team/team-5.jpg")?>" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Andika</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="wedding_2" class="btn btn-primary">Undangan 2</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img src="<?= base_url("assets/images/team/team-5.jpg")?>" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Furqon</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="Bagus-Aci" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <img src="<?= base_url("assets/images/team/team-5.jpg")?>" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Sukma</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end container -->
-    </section>
-    <!-- End price list -->
 
     <section class="sm-section">
         <div class="container">
@@ -77,19 +28,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="product-item mt-4">
                                 <div class="product-img rounded position-relative">
-                                    <img class="img-fluid" src="<?= base_url("assets/images/products/pro-1.jpg")?>" alt="" />
-                                    <span
-                                        class="text-dark badge bg-light rounded-3 fs-14 fw-bold position-absolute top-0 start-0 mt-2 ms-2 py-2">-20%</span>
-
-                                    <div
-                                        class="hover-content text-center w-100 position-absolute bottom-0 start-50 translate-middle-x py-2 mb-3">
-                                        <a href="cart.html"><i
-                                                class="mdi mdi-cart-outline fs-22 me-3 pe-3 fw-bolder pro-icon border-end"></i></a>
-                                        <a href="product-detail.html"><i
-                                                class="mdi mdi-eye-outline fs-22 me-3 pe-3 fw-bolder pro-icon border-end active"></i></a>
-                                        <a href="cart.html"><i
-                                                class="mdi mdi-heart-outline fs-22 fw-bolder pro-icon"></i></a>
-                                    </div>
+                                    <a href="wedding_1"><img class="img-fluid" src="<?= base_url("assets/images/products/pro-1.jpg")?>" alt="" /></a>
                                 </div>
                                 <div class="pro-content my-3">
                                     <div class="d-flex align-items-center">
@@ -111,16 +50,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="product-item mt-4">
                                 <div class="product-img rounded position-relative">
-                                    <img class="img-fluid" src="<?= base_url("assets/images/products/pro-2.jpg")?>" alt="" />
-                                    <div
-                                        class="hover-content text-center w-100 position-absolute bottom-0 start-50 translate-middle-x py-2 mb-3">
-                                        <a href="cart.html"><i
-                                                class="mdi mdi-cart-outline fs-22 me-3 pe-3 fw-bolder pro-icon text-dark border-end"></i></a>
-                                        <a href="product-detail.html"><i
-                                                class="mdi mdi-eye-outline fs-22 me-3 pe-3 fw-bolder pro-icon border-end active"></i></a>
-                                        <a href="cart.html"><i
-                                                class="mdi mdi-heart-outline text-dark fs-22 fw-bolder pro-icon"></i></a>
-                                    </div>
+                                <a href="wedding_2"><img class="img-fluid" src="<?= base_url("assets/images/products/pro-2.jpg")?>" alt="" /></a>
                                 </div>
                                 <div class="pro-content my-3">
                                     <div class="d-flex align-items-center">
@@ -142,18 +72,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="product-item mt-4">
                                 <div class="product-img rounded position-relative">
-                                    <img class="img-fluid" src="<?= base_url("assets/images/products/pro-3.jpg")?>" alt="" />
-                                    <span
-                                        class="text-dark badge bg-light rounded-3 fs-14 fw-bold position-absolute top-0 start-0 mt-2 ms-2 py-2">-18%</span>
-                                    <div
-                                        class="hover-content text-center w-100 position-absolute bottom-0 start-50 translate-middle-x py-2 mb-3">
-                                        <a href="cart.html"><i
-                                                class="mdi mdi-cart-outline fs-22 me-3 pe-3 fw-bolder pro-icon text-dark border-end"></i></a>
-                                        <a href="product-detail.html"><i
-                                                class="mdi mdi-eye-outline fs-22 me-3 pe-3 fw-bolder pro-icon border-end active"></i></a>
-                                        <a href="cart.html"><i
-                                                class="mdi mdi-heart-outline text-dark fs-22 fw-bolder pro-icon"></i></a>
-                                    </div>
+                                <a href="Bagus-Aci"><img class="img-fluid" src="<?= base_url("assets/images/products/pro-3.jpg")?>" alt="" /></a>
                                 </div>
                                 <div class="pro-content my-3">
                                     <div class="d-flex align-items-center">

@@ -5,37 +5,36 @@
     <!-- Common Tag -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Website Undangan Pernikahan Wahyu dan Riski Secara Online</title>
+    <title>Undangan Pernikahan Bagus & Anindya</title>
 
     <!-- SEO Tag -->
     <meta name="author" content="dewanakl">
     <meta name="language" content="Indonesia">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="googlebot" content="index, follow, max-image-preview:large">
-    <meta name="title" content="Website Undangan Pernikahan Wahyu dan Riski Secara Online">
-    <meta name="description" content="Website Undangan Pernikahan Wahyu dan Riski Secara Online">
-    <meta name="keywords" content="undangan, wedding, undangan digital, undangan online, wedding invitation, template undangan, template undangan pernikahan, undangan pernikahan, template undangan online, wedding invitation github, template website, template website undangan pernikahan">
-    <meta property="og:title" content="Website Undangan Pernikahan Wahyu dan Riski Secara Online">
-    <meta property="og:description" content="Website Undangan Pernikahan Wahyu dan Riski Secara Online">
+    <meta name="title" content="Undangan Pernikahan Bagus & Anindya">
+    <meta name="description" content="Undangan Pernikahan Bagus & Anindya">
+    <meta property="og:title" content="Undangan Pernikahan Bagus & Anindya">
+    <meta property="og:description" content="Undangan Pernikahan Bagus & Anindya">
     <meta property="og:keywords" content="undangan, wedding, undangan digital, undangan online, wedding invitation, template undangan, template undangan pernikahan, undangan pernikahan, template undangan online, wedding invitation github, template website, template website undangan pernikahan">
     <meta property="og:image" content="https://ulems.my.id/assets/images/bg.jpeg">
     <meta property="og:image:secure_url" content="https://ulems.my.id/assets/images/bg.jpeg">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:alt" content="Website Undangan Pernikahan Wahyu dan Riski Secara Online">
+    <meta property="og:image:alt" content="Undangan Pernikahan Bagus & Anindya">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="id_ID">
     <meta property="og:url" content="https://ulems.my.id">
-    <meta property="og:site_name" content="Website Undangan Pernikahan Wahyu dan Riski Secara Online">
+    <meta property="og:site_name" content="Undangan Pernikahan Bagus & Anindya">
 
     <!-- Appearance -->
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="Website Undangan Pernikahan Wahyu dan Riski Secara Online">
+    <meta name="apple-mobile-web-app-title" content="Undangan Pernikahan Bagus & Anindya">
     <meta name="theme-color" content="#111111">
     <meta name="color-scheme" content="dark">
     <link rel="canonical" href="https://ulems.my.id/">
-    <link rel="shortcut icon" type="image/x-icon" href="https://ulems.my.id/favicon.ico">
-    <link rel="apple-touch-icon" sizes="192x192" type="image/png" href="https://ulems.my.id/assets/images/icon-192x192.png">
-    <link rel="icon" type="image/x-icon" href="https://ulems.my.id/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url("assets/undangan_2/assets/images/henosis.png")?>">
+    <link rel="apple-touch-icon" sizes="192x192" type="image/png" href="<?= base_url("assets/undangan_2/assets/images/henosis.png")?>">
+    <link rel="icon" type="image/x-icon" href="<?= base_url("assets/undangan_2/assets/images/henosis.png")?>">
 
     <!-- Preconnect and preload CDN -->
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
@@ -126,6 +125,7 @@
                 
                
                 <h1 class="font-esthetic my-4" style="font-size: 3rem;">Bagus & Anindya</h1>
+                
                 <p class="mb-0" style="font-size: 1.5rem;">Minggu, 03 Maret 2024</p>
 
                 <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Wahyu%20and%20Riski&details=The%20Wedding%20of%20Wahyu%20and%20Riski%20%7C%2015%20Maret%202023%20%7C%20RT%2010%20RW%2002,%20Desa%20Pajerukan,%20Kec.%20Kalibagor,%20Kab.%20Banyumas,%20Jawa%20Tengah%2053191%20%7C%2010.00%20-%2011.00%20WIB&dates=20230315T100000/20230315T110000&location=https://goo.gl/maps/ALZR6FJZU3kxVwN86">
@@ -525,7 +525,9 @@
               
                 <div id="nama-tamu"></div>
                 <h2 style="font-size: 1rem;">Kepada Bapak/Ibu/Saudara/i</h2>
-                <h2 style="font-size: 1.5rem;">Delviro Andika F</h3>
+                <h2 id="coba2"></h2>
+               
+                
                 <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.buka(this)">
                     <i class="fa-solid fa-envelope-open me-2"></i>Buka Undangan
                 </button>
@@ -542,7 +544,7 @@
     <div class="loading-page" id="loading" style="opacity: 1;">
         <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
             <div class="text-center w-75">
-                <img class="img-fluid mb-3" src="./assets/images/3.png" alt="icon" style="width: 3.5rem;">
+                <img class="img-fluid mb-3" src="<?= base_url("assets/undangan_2/assets/images/henosis.png")?>" alt="icon" style="width: 3.5rem;">
                 <div class="progress" role="progressbar" style="height: 0.5rem;">
                     <div class="progress-bar" id="bar" style="width: 0%"></div>
                 </div>
@@ -594,6 +596,7 @@
                     kalimat += " ";
                 }
             });
+            $("#coba2").text(kalimat);
             console.log( kalimat );
         });
     </script>

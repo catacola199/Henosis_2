@@ -3,8 +3,8 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <img src="<?= base_url("assets/images/bg.jpg")?>" alt="about-img" class="img-fluid img-thumbnail mt-5">
+                <div class="col-lg-4 col-md-6 col-xs-12 mx-auto d-block">
+                    <img src="<?= base_url("assets/images/about.png")?>" alt="about-img" class="img-responsive img-thumbnail mt-5  ">
                 </div>
             </div>
 
