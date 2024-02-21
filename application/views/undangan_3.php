@@ -23,7 +23,7 @@
     <meta property="og:image:alt" content="Undangan Pernikahan Bagus & Anindya">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="id_ID">
-    <meta property="og:url" content="https://ulems.my.id">
+    <meta property="og:url" content="https://henosisstudio.com/">
     <meta property="og:site_name" content="Undangan Pernikahan Bagus & Anindya">
 
     <!-- Appearance -->
@@ -31,7 +31,7 @@
     <meta name="apple-mobile-web-app-title" content="Undangan Pernikahan Bagus & Anindya">
     <meta name="theme-color" content="#111111">
     <meta name="color-scheme" content="dark">
-    <link rel="canonical" href="https://ulems.my.id/">
+    <link rel="canonical" href="https://henosisstudio.com/">
     <link rel="shortcut icon" type="image/x-icon" href="<?= base_url("assets/undangan_2/assets/images/henosis.png")?>">
     <link rel="apple-touch-icon" sizes="192x192" type="image/png" href="<?= base_url("assets/undangan_2/assets/images/henosis.png")?>">
     <link rel="icon" type="image/x-icon" href="<?= base_url("assets/undangan_2/assets/images/henosis.png")?>">
