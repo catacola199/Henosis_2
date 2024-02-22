@@ -405,22 +405,23 @@
         <!-- Ucapan -->
         <section class="m-0 p-0" id="ucapan">
             <div class="container">
-
+                <form  method="POST" id="my-form"
+                action="https://script.google.com/macros/s/AKfycbz50rjua078qCaboKC1B6mBYpyHfNAZ8g0kcjO0h9PtFnKdVGf0iTo_SdAh8LXIPCpi9Q/exec">
                 <div class="card-body border rounded-4 shadow p-3">
                     <h1 class="font-esthetic text-center mb-3" style="font-size: 3rem;">Ucapan & Doa</h1>
                     <div class="mb-1" id="balasan"></div>
 
                     <div class="mb-3">
                         <label for="form-nama" class="form-label">Nama</label>
-                        <input type="text" class="form-control shadow-sm" id="form-nama" placeholder="Isikan Nama Anda">
+                        <input type="text" class="form-control shadow-sm" id="nama" name="nama" placeholder="Isikan Nama Anda">
                     </div>
 
                     <div class="mb-3">
                         <label for="form-kehadiran" class="form-label" id="label-kehadiran">Kehadiran</label>
-                        <select class="form-select shadow-sm" id="form-kehadiran">
-                            <option value="0" selected>Konfirmasi Kehadiran</option>
-                            <option value="1">Hadir</option>
-                            <option value="2">Berhalangan</option>
+                        <select class="form-select shadow-sm" id="kehadiran" name="kehadiran">
+                            <option selected>Konfirmasi Kehadiran</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Berhalangan">Berhalangan</option>
                         </select>
                     </div>
 
@@ -431,19 +432,10 @@
                             <p class="m-0">Sekarang bisa format text seperti whatsapp lohh... cobainn sekaranggg, makaciwww bestieee</p>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="localStorage.setItem('alertClosed', 'true'); document.getElementById('alertDiv').style.display = 'none';"></button>
                         </div>
-                        <textarea class="form-control shadow-sm" id="form-pesan" rows="4" placeholder="Tulis Ucapan & Doa"></textarea>
+                        <textarea class="form-control shadow-sm" id="pesan" name="pesan" rows="4" placeholder="Tulis Ucapan & Doa"></textarea>
                     </div>
 
                     <div class="d-flex">
-                        <button class="flex-fill btn btn-danger btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.batal()" id="batal">
-                            Batal<i class="fa-solid fa-xmark ms-1"></i>
-                        </button>
-                        <button class="flex-fill btn btn-success btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.balas()" id="balas">
-                            Balas<i class="fa-solid fa-reply ms-1"></i>
-                        </button>
-                        <button class="flex-fill btn btn-warning btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.ubah()" id="ubah">
-                            Ubah<i class="fa-solid fa-pen-to-square ms-1"></i>
-                        </button>
                         <button class="flex-fill btn btn-primary btn-sm rounded-3 shadow m-1" onclick="comment.kirim()" id="kirim">
                             Kirim<i class="fa-solid fa-paper-plane ms-1"></i>
                         </button>
@@ -601,7 +593,24 @@
         });
     </script>
     
+    <script>
+        window.addEventListener("load", function() {
+            const form = document.getElementById('my-form');
+            form.addEventListener("submit", function(e) {
+                e.preventDefault();
+                const data = new FormData(form);
+                const action = e.target.action;
+                fetch(action, {
+                method: 'POST',
+                body: data,
+                })
+                .then(() => {
+                alert("Konfirmasi Kehadiran Berhasil!");
+                })
+            });
+        });
 
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha256-gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js" integrity="sha256-XG5M9shcLLpu8ct5bVbu6lLVzLpfZChl+csxdyLVP18=" crossorigin="anonymous"></script>
