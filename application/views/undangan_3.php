@@ -371,7 +371,7 @@
                                 <p class="card-text" style="font-size: 0.9rem;">a.n Anindya Dwi</p>
 
                                 <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                                <button class="btn btn-light btn-sm rounded-3" data-nomer="123456789" onclick="util.salin(this)" autofocus>Salin No. Rekening</button>
+                                <button class="btn btn-light btn-sm rounded-3" data-nomer="4452150976" onclick="util.salin(this)" autofocus>Salin No. Rekening</button>
                             </div>
 
                             <div class="col-5 card-body border rounded-4 shadow p-3 m-3" data-aos="fade-down" data-aos-duration="1500">
@@ -381,7 +381,7 @@
                                 <p class="card-text" style="font-size: 0.9rem;">a.n Baguc Fachrurozi</p>
 
                                 <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                                <button class="btn btn-light btn-sm rounded-3" data-nomer="123456789" onclick="util.salin(this)" autofocus>Salin No. Rekening</button>
+                                <button class="btn btn-light btn-sm rounded-3" data-nomer="1250012377750" onclick="util.salin(this)" autofocus>Salin No. Rekening</button>
                             </div>
                         </div>
                     </div>

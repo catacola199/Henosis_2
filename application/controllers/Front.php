@@ -42,6 +42,10 @@ class Front extends CI_Controller
 	{
 		$this->load->view('undangan_2');
 	}
+	function wedding_4()
+	{
+		$this->load->view('undangan_4');
+	}
 	function studio()
 	{
 		$this->load->view('studio');

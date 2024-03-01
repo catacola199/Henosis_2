@@ -31,7 +31,7 @@
                     <div class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
                         <div class="card-body p-0">
                             <a title="">
-                                <img src="<?= base_url("assets/images/works/2.png")?>" class="img-fluid rounded" alt="work-image" />
+                                <img src="<?= base_url("assets/images/works/8.png")?>" class="img-fluid rounded" alt="work-image" />
                             </a>
                         </div>
                         <!-- end cardbody -->
@@ -40,7 +40,7 @@
                 </div>
                 <!--end col-->
 
-                <div class="col-lg-8 col-md-6 col-12 spacing picture-item" data-groups='["designing"]'>
+                <div class="col-lg-8 col-md-6 col-12 spacing picture-item">
                     <div class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
                         <div class="card-body p-0">
                             <a href="javascript:void(0)" data-src="images/works/img-2.jpg" data-gallery="myGal"
@@ -58,12 +58,12 @@
                 </div>
                 <!--end col-->
 
-                <div class="col-lg-4 col-md-6 col-12 spacing picture-item" data-groups='["photography"]'>
+                <div class="col-lg-4 col-md-6 col-12 spacing picture-item" >
                     <div class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
                         <div class="card-body p-0">
-                            <a href="javascript:void(0)" data-src="<?= base_url("assets/images/works/3.png")?>" data-gallery="myGal"
+                            <a href="javascript:void(0)" data-src="<?= base_url("assets/images/works/9.png")?>" data-gallery="myGal"
                                 class="d-inline-block" title="">
-                                <img src="<?= base_url("assets/images/works/3.png")?>" class="img-fluid rounded" alt="work-image" />
+                                <img src="<?= base_url("assets/images/works/9.png")?>" class="img-fluid rounded" alt="work-image" />
                             </a>
                             
                         </div>

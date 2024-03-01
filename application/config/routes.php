@@ -65,3 +65,4 @@ $route['studio'] = 'front/studio';
 $route['contact'] = 'front/contact';
 $route['portofolio'] = 'front/portofolio';
 $route['Bagus-Aci'] = 'front/Bagus_Aci';
+$route['wedding_4'] = 'front/wedding_4';

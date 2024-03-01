@@ -93,7 +93,7 @@
                 </div>
                 <!--end col-->
 
-                <div class="col-lg-4 col-md-6 col-12 spacing picture-item" data-groups='["photography"]'>
+                <div class="col-lg-4 col-md-6 col-12 spacing picture-item" >
                     <div class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
                         <div class="card-body p-0">
                             <a href="javascript:void(0)" data-src="<?= base_url("assets/images/works/5.png")?>" data-gallery="myGal"
@@ -108,7 +108,7 @@
                 </div>
                 <!--end col-->
 
-                <div class="col-lg-4 col-md-6 col-12 spacing picture-item" data-groups='["branding"]'>
+                <div class="col-lg-4 col-md-6 col-12 spacing picture-item">
                     <div class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
                         <div class="card-body p-0">
                             <a href="javascript:void(0)" class="d-inline-block" title="">
@@ -122,7 +122,7 @@
                 </div>
                 <!--end col-->
 
-                <div class="col-lg-4 col-md-6 col-12 spacing picture-item" data-groups='["branding"]'>
+                <div class="col-lg-4 col-md-6 col-12 spacing picture-item"  >
                     <div class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
                         <div class="card-body p-0">
                             <a href="javascript:void(0)" data-src="images/works/img-6.jpg" data-gallery="myGal"

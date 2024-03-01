@@ -32,17 +32,8 @@
                                 </div>
                                 <div class="pro-content my-3">
                                     <div class="d-flex align-items-center">
-                                        <ins class="pe-2 fs-15 fw-semibold text-decoration-none text-dark">$29.00</ins>
-                                        <del class="text-muted fs-15">$30.00</del>
-                                        <div class="rating ms-auto">
-                                            <i class="mdi mdi-star fs-18 text-warning d-inline-block"></i>
-                                            <h5 class="d-inline-block fs-15">5.0</h5>
-                                        </div>
+                                        <ins class="pe-2 fs-15 fw-semibold text-decoration-none text-dark">Wedding Invitation 01</ins>
                                     </div>
-                                    <a href="product-detail.html">
-                                        <p class="text-muted fw-normal lh-base my-1">Maxbell USB Rechargeable Electronic
-                                            Flameless</p>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -54,17 +45,8 @@
                                 </div>
                                 <div class="pro-content my-3">
                                     <div class="d-flex align-items-center">
-                                        <ins class="pe-2 fs-15 fw-semibold text-decoration-none text-dark">$35.00</ins>
-                                        <del class="text-muted fs-15">$45.00</del>
-                                        <div class="rating ms-auto">
-                                            <i class="mdi mdi-star fs-18 text-warning d-inline-block"></i>
-                                            <h5 class="d-inline-block fs-15">4.8</h5>
-                                        </div>
+                                        <ins class="pe-2 fs-15 fw-semibold text-decoration-none text-dark">Wedding Invitation 02</ins>
                                     </div>
-                                    <a href="product-detail.html">
-                                        <p class="text-muted fw-normal lh-base my-1">PRd PU Tan Casual regular
-                                            Walletious</p>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -76,48 +58,21 @@
                                 </div>
                                 <div class="pro-content my-3">
                                     <div class="d-flex align-items-center">
-                                        <ins class="pe-2 fs-15 fw-semibold text-decoration-none text-dark">$20.00</ins>
-                                        <del class="text-muted fs-15">$30.00</del>
-                                        <div class="rating ms-auto">
-                                            <i class="mdi mdi-star fs-18 text-warning d-inline-block"></i>
-                                            <h5 class="d-inline-block fs-15">4.9</h5>
-                                        </div>
+                                        <ins class="pe-2 fs-15 fw-semibold text-decoration-none text-dark">Wedding Invitation 03</ins>
                                     </div>
-                                    <a href="product-detail.html">
-                                        <p class="text-muted fw-normal lh-base my-1">Children Decorated Shoes Cotton
-                                            Green</p>
-                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <!-- end col -->
-                        <div class="col-lg-4 col-md-6">
+                       <!-- end col -->
+                       <div class="col-lg-4 col-md-6">
                             <div class="product-item mt-4">
                                 <div class="product-img rounded position-relative">
-                                    <img class="img-fluid" src="<?= base_url("assets/images/products/pro-4.jpg")?>" alt="" />
-                                    <div
-                                        class="hover-content text-center w-100 position-absolute bottom-0 start-50 translate-middle-x py-2 mb-3">
-                                        <a href="cart.html"><i
-                                                class="mdi mdi-cart-outline fs-22 me-3 pe-3 fw-bolder pro-icon text-dark border-end"></i></a>
-                                        <a href="product-detail.html"><i
-                                                class="mdi mdi-eye-outline fs-22 me-3 pe-3 fw-bolder pro-icon border-end active"></i></a>
-                                        <a href="cart.html"><i
-                                                class="mdi mdi-heart-outline text-dark fs-22 fw-bolder pro-icon"></i></a>
-                                    </div>
+                                <a href="wedding_4"><img class="img-fluid" src="<?= base_url("assets/images/products/pro-4.jpg")?>" alt="" /></a>
                                 </div>
                                 <div class="pro-content my-3">
                                     <div class="d-flex align-items-center">
-                                        <ins class="pe-2 fs-15 fw-semibold text-decoration-none text-dark">$39.00</ins>
-                                        <del class="text-muted fs-15">$59.00</del>
-                                        <div class="rating ms-auto">
-                                            <i class="mdi mdi-star fs-18 text-warning d-inline-block"></i>
-                                            <h5 class="d-inline-block fs-15">5.0</h5>
-                                        </div>
+                                        <ins class="pe-2 fs-15 fw-semibold text-decoration-none text-dark">Wedding Invitation 04</ins>
                                     </div>
-                                    <a href="product-detail.html">
-                                        <p class="text-muted fw-normal lh-base my-1">Maxbell USB Rechargeable Electronic
-                                            Flameless</p>
-                                    </a>
                                 </div>
                             </div>
                         </div>
