@@ -41,7 +41,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="product-item mt-4">
                                 <div class="product-img rounded position-relative">
-                                <a href="wedding_2"><img class="img-fluid" src="<?= base_url("assets/images/products/pro-2.jpg")?>" alt="" /></a>
+                                <a href="Bagus-Aci2"><img class="img-fluid" src="<?= base_url("assets/images/products/pro-2.jpg")?>" alt="" /></a>
                                 </div>
                                 <div class="pro-content my-3">
                                     <div class="d-flex align-items-center">

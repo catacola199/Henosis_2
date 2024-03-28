@@ -33,6 +33,12 @@ class Front extends CI_Controller
         // Load the view and pass the data
 		$this->load->view('undangan_3',$data);
 	}
+	function Bagus_Aci2()
+	{
+
+        // Load the view and pass the data
+		$this->load->view('undangan_3_2');
+	}
 
 	function wedding_1()
 	{
@@ -45,6 +51,10 @@ class Front extends CI_Controller
 	function wedding_4()
 	{
 		$this->load->view('undangan_4');
+	}
+	function wedding_5()
+	{
+		$this->load->view('undangan_5');
 	}
 	function studio()
 	{

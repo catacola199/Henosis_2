@@ -119,7 +119,7 @@
 
                 <div class="py-4">
                     <div class="img-crop border border-3 border-light shadow mx-auto">
-                        <img src="<?= base_url("assets/undangan_2/assets/images/ft_awal2.JPG")?>" alt="bg" onclick="util.modal(this)">
+                        <img src="<?= base_url("assets/undangan_2/assets/images/bg.JPEG")?>" alt="bg" onclick="util.modal(this)">
                     </div>
                 </div>
                 
@@ -163,9 +163,9 @@
 
                     <div data-aos="fade-right" data-aos-duration="2000">
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="<?= base_url("assets/undangan_2/assets/images/bagus.png")?>" alt="cowo" onclick="util.modal(this)">
+                            <img src="<?= base_url("assets/undangan_2/assets/images/cowo.png")?>" alt="cowo" onclick="util.modal(this)">
                         </div>
-                        <h1 class="font-esthetic" style="font-size: 3rem;">Bagus Fachrurozi S.Sn</h1>
+                        <h1 class="font-esthetic" style="font-size: 3rem;">Bagus Fachrurozi </h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem;">Putra Ke - 2</p>
                         <p class="mb-0">Bapak Alm. Agung Kurnianto & Ibu Alm. Tepi Indriati Rahayu</p>
                     </div>
@@ -174,9 +174,9 @@
 
                     <div data-aos="fade-left" data-aos-duration="2000">
                         <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="<?= base_url("assets/undangan_2/assets/images/anin.png")?>" alt="cewe" onclick="util.modal(this)">
+                            <img src="<?= base_url("assets/undangan_2/assets/images/cewe.png")?>" alt="cewe" onclick="util.modal(this)">
                         </div>
-                        <h1 class="font-esthetic" style="font-size: 3rem;">Anindya Dwi Rezky Amilia S.S</h1>
+                        <h1 class="font-esthetic" style="font-size: 3rem;">Anindya Dwi Rezky </h1>
                         <p class="mt-3 mb-0" style="font-size: 1.25rem;">Putri Ke - 2</p>
                         <p class="mb-0">Bapak Sugiono & Ibu Parmi</p>
                     </div>
@@ -285,19 +285,16 @@
 
                         <div class="carousel-inner rounded-4">
                             <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_1.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/bg.JPEG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
-                            <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_4.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                            <div class="carousel-item ">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/bg2.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
-                            <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_5.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                            <div class="carousel-item ">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/bg3.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
-                            <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/foto_8.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
-                            </div>
-                           
-                           
+                            
+                            
                         </div>
 
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-foto-satu" data-bs-slide="prev">
@@ -311,7 +308,7 @@
                         </button>
                     </div>
 
-                    <div id="carousel-foto-dua" data-aos="fade-up" data-aos-duration="1500" class="carousel slide mt-4" data-bs-ride="carousel">
+                    <!-- <div id="carousel-foto-dua" data-aos="fade-up" data-aos-duration="1500" class="carousel slide mt-4" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carousel-foto-dua" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carousel-foto-dua" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -339,7 +336,7 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -511,7 +508,7 @@
                 <h1 class="font-esthetic my-4" style="font-size: 2.5rem;">Bagus & Anindya</h1>
 
                 <div class="img-crop border border-3 border-light shadow mb-4 mx-auto">
-                    <img src="<?= base_url("assets/undangan_2/assets/images/ft_awal2.JPG")?>" alt="bg">
+                    <img src="<?= base_url("assets/undangan_2/assets/images/bg.JPEG")?>" alt="bg">
                 </div>
 
               

@@ -26,8 +26,7 @@
 
 <body>
 
-  <section id="hero"
-    class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+  <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
       <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
       <h1>Sandhika & Nofariza</h1>
@@ -37,28 +36,33 @@
     </main>
 
   </section>
-
-  <nav class="navbar bg-body-tertiary navbar-expand-md sticky-top mynavbar">
-      <div class="container">
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">Henosis</a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link" href="#home">Home</a>
-              <a class="nav-link" href="#info">Info</a>
-              <a class="nav-link" href="#story">Story</a>
-              <a class="nav-link" href="#gallery">Gallery</a>
-              <a class="nav-link" href="#rsvp">RSVP</a>
-              <a class="nav-link" href="#gift">Gift</a>
-            </div>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#info">Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#story">Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#rsvp">RSVP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#gifts">Gift</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
