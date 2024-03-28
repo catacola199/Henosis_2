@@ -119,7 +119,7 @@
 
                 <div class="py-4">
                     <div class="img-crop border border-3 border-light shadow mx-auto">
-                        <img src="<?= base_url("assets/undangan_2/assets/images/bg.JPEG")?>" alt="bg" onclick="util.modal(this)">
+                        <img src="<?= base_url("assets/undangan_2/assets/images/bg.jpeg")?>" alt="bg" onclick="util.modal(this)">
                     </div>
                 </div>
                 
@@ -285,13 +285,13 @@
 
                         <div class="carousel-inner rounded-4">
                             <div class="carousel-item active">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/bg.JPEG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/bg.jpeg")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                             <div class="carousel-item ">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/bg2.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/bg2.jpg")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                             <div class="carousel-item ">
-                                <img src="<?= base_url("assets/undangan_2/assets/images/bg3.JPG")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
+                                <img src="<?= base_url("assets/undangan_2/assets/images/bg3.jpg")?>" alt="gambar 1" class="d-block w-100" onclick="util.modal(this)">
                             </div>
                             
                             
